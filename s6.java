@@ -8,7 +8,7 @@ class fibonacci
     public void series_fibo()
     {
         int i,a=0,b=1,c;
-        for(i=1;i<=n;i++)
+        for(i=0;i<n;i++)
         {
             if(i==0)
                 System.out.print(a+"\t");
