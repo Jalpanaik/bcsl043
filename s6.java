@@ -10,22 +10,24 @@ class fibonacci
         int i,a=0,b=1,c;
         for(i=1;i<=n;i++)
         {
-            if(i=0)
-            System.out.print(a+"\t");
-            else if(i=1)
-            System.err.print(b+"\t");
+            if(i==0)
+                System.out.print(a+"\t");
+            else if(i==1)
+                System.err.print(b+"\t");
             else
-            c=a+b;
-            System.out.print(c+"\t");
-            a=b;
-            b=c;
-        }
+            {
+                c=a+b;
+                System.out.print(c+"\t");
+                a=b;
+                b=c;
+            }
+        }    
     }
 }
 public class s6{
     public static void main(String[] args) {
          fibonacci obj=new fibonacci(5);
-    obj.series_fibo();;
+    obj.series_fibo();
     }
    
 }
