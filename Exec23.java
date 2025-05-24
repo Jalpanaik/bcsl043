@@ -1,3 +1,4 @@
+//WAP to convert string to Uppercase.
 import java.util.*;
 public class Exec23
 {
